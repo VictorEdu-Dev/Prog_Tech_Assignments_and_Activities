@@ -13,7 +13,7 @@ public class Exerc17 {
 		if (A > 10 || A + B == 20) {
 			System.out.println("Numero valido!");
 		} else if (A == B) {
-			System.out.println("A == B");
+			System.out.println("A eh igual a B");
 		} else if (A != 10 && B != 10 && A < 10) {
 			System.out.println("A eh menor que 10");
 		} else {

@@ -7,14 +7,10 @@ public class Exerc10 {
 		int A = 5;
 		int B = 10;
 		
-		if (A > 10) {
-			return;
-		} else {
+		if (A <= 10) {
 			System.out.println("Numero menor que 10!");
 		}
-		if (A + B == 20) {
-			return;
-		} else {
+		if (A + B != 20) {
 			System.out.println("Numero diferente de 20!");
 		}
 	}

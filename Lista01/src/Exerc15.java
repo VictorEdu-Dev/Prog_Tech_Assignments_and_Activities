@@ -11,12 +11,12 @@ public class Exerc15 {
 		
 		if (A < 10) {
 			System.out.println("A < 10");
-		}
-		if (A + B == 20) {
-			System.out.println("A + B == 20");
+			if (A + B == 20) {
+				System.out.println("A + B == 20");
+			}
 		}
 		
-		if (A >= 10 || A + B != 20) {
+		if (A >= 10 && A + B != 20) {
 			System.out.println("Numero nao valido!");
 		}
 		

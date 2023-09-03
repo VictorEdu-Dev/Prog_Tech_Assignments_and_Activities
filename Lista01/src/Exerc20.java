@@ -14,9 +14,8 @@ public class Exerc20 {
 		} else {
 			System.out.println("Numeros nao validos");
 		}
-		if (A + B == 20 || A + B != 20 || A > 10 || A <= 10) {
+		if (true) {
 			System.out.println("Sejam bem vindos a disciplina de Tecncicas de Programacao!");
-		}
-		
+		}	
 	}
 }

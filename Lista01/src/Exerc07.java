@@ -4,13 +4,13 @@ afirmação não seja verdadeira, imprima: "número não válido". */
 
 public class Exerc07 {
 	public static void main(String[] args) {
-		int A = 15;
-		int B = 5;
+		int A = 5;
+		int B = 14;
 		
 		if (A > 10 && A + B == 20) {
-			System.out.println("Numeros validos!");
+			System.out.println("Numeros validos!");	
 		} else if (A <= 10) {
-			System.out.println("Numro nao valido!");
+			System.out.println("Numero nao valido!");
 		}	
 	}
 }
