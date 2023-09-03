@@ -5,12 +5,14 @@ válido", (obs: apenas uma impressão é permitida na saída do programa). */
 
 public class Exerc02 {
 	public static void main(String[] args) {
-		int A = 20;
-		int B = 00;
+		int A = 10;
+		int B = 1;
 		
-		if (A>10 && A + B == 20) {
-				System.out.println("A > 10 e A + B = 20");
-			} else {
+		if (A < 10) {
+				System.out.println("A < 10");
+			} else if (A + B == 20) {
+				System.out.println("A + B == 20");
+				} else {
 				System.out.println("Numero nao valido!");
 			}
 		}

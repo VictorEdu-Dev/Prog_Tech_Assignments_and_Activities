@@ -9,12 +9,12 @@ public class Exerc03 {
 		int A = 10;
 		int B = A;
 		
-		if (A + B == 20) {
+		if (A == 10) {
 			System.out.println("A == 10");
-		}
-		if (A + B == 20) {
-			System.out.println("A + B == 20");
-			}
+			if (A + B == 20) {
+				System.out.println("A + B == 20");
+				}
+		}		
 		if (B == 10) {
 			System.out.println("B == 10");
 		}
